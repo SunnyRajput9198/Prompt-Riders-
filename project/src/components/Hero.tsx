@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Code, ArrowRight, Clock } from 'lucide-react';
+import { ArrowRight, Clock } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState({
